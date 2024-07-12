@@ -20,7 +20,27 @@
 
 ## Решение
 
-![alt text](https://github.com/artmur1/18-03-hw/blob/main/img/18-03-01-01-hw.png)
+Сделал ещё один play, который устанавливает и настраивает LightHouse:
+
+![alt text](https://github.com/artmur1/18-03-hw/blob/main/img/18-03-01-hw.png)
+
+![alt text](https://github.com/artmur1/18-03-hw/blob/main/img/18-03-02-hw.png)
+
+Запустил `ansible-lint site.yml`:
+
+![alt text](https://github.com/artmur1/18-03-hw/blob/main/img/18-03-03-hw.png)
+
+Запустил playbook на этом окружении с флагом `--check`:
+
+![alt text](https://github.com/artmur1/18-03-hw/blob/main/img/18-03-04-hw.png)
+
+Запустил playbook на `prod.yml` окружении с флагом `--diff`:
+
+![alt text](https://github.com/artmur1/18-03-hw/blob/main/img/18-03-05-hw.png)
+
+Повторно запустил playbook на `prod.yml` окружении с флагом `--diff`. Убедился, что playbook идемпотентен:
+
+![alt text](https://github.com/artmur1/18-03-hw/blob/main/img/18-03-06-hw.png)
 
 ---
 
